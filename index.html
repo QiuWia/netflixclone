@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Início - Netflix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/global.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark px-4">
+      <div class="container-fluid">
+        <a class="text-white navbar-brand" href="#">
+          <img class="logo-netflix" src="./images/logo_netflix.svg" alt="logo netflix"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="text-white nav-link active fw-bold" aria-current="page" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" aria-current="page" href="#">Séries</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" aria-current="page" href="#">Filmes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" aria-current="page" href="#">Bombando</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" aria-current="page" href="#">Minha Lista</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" aria-current="page" href="#">Navegar por idiomas</a>
+            </li>
+          </ul>
+          <div class="d-flex justify-content-center gap-2">
+            <div class="d-flex align-items-center btn"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#fff" viewBox="0 0 256 256"><path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path></svg></div>
+            <div class="d-flex align-items-center m-0 p-0 btn">
+              <div class="d-flex align-items-center"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#fff" viewBox="0 0 256 256"><path d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"></path></svg></div>
+              <div class="notificacao">15</div>
+            </div>
+            <div class="dropdown">
+              <button class="btn dropdown-toggle d-flex" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img class="user-img" src="./images/user_profile.png" alt="user_profile"/>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Perfil</a></li>
+                <li><a class="dropdown-item" href="#">Configuração</a></li>
+                <li><a class="dropdown-item" href="#">Sair</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="inicio">
+      <section class="destaque">
+        <div class="body-destaque">
+          <div class="conteudo">
+            <div class="info container">
+              <h1 class="titulo">The Witcher</h1>
+              <p class="descricao">
+                O mutante Geralt de Rívia é um caçador de monstros que luta para encontrar seu lugar num mundo onde as pessoas muitas vezes são mais perversas que as criaturas selvagens.
+              </p>
+              <div class="d-flex gap-3 mt-3">
+                <button type="button" class="btn btn-light">
+                  <i><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M240,128a15.74,15.74,0,0,1-7.6,13.51L88.32,229.65a16,16,0,0,1-16.2.3A15.86,15.86,0,0,1,64,216.13V39.87a15.86,15.86,0,0,1,8.12-13.82,16,16,0,0,1,16.2.3L232.4,114.49A15.74,15.74,0,0,1,240,128Z"></path></svg></i>
+                  Assistir
+                </button>
+                <button type="button" class="btn btn-secondary" style="opacity: 85%;">
+                  <i><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#fff" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm-8-80V80a8,8,0,0,1,16,0v56a8,8,0,0,1-16,0Zm20,36a12,12,0,1,1-12-12A12,12,0,0,1,140,172Z"></path></svg></i>
+                  Mais informações
+                </button>
+              </div>
+              <div class="generos">
+                <b>Gêneros:</b>
+                Drama, Ação & Aventura, Sci-Fi & Fantasia
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="lista">
+        <div class="catalago">
+          <h2 class="titulo">Populares na Netflix</h2>
+          <div class="conteudos">
+            <div class="banners">
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/opDY35ukPWTGFIxq17BBHJs49LD.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/cyCAsMLGECvEAFDfKcxcWy7YTOW.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/x7zUHG5cko4ZXQO2209Qc2aoyrc.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/uJ1kQWTY1nElMcrrbHtDitbV85K.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/5qMupAz4A9EN5Rutrkmov45mNXZ.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/sPbNUuCOD2ilcVWf5yjjkMqyoxs.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/aesLt9fsKSA6KCgGxA60VVxjtLk.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/f2FK4mTRwIq4sLWzuLIG2Y6RbRi.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/8sa6A1DlRMWVAwWlScunrikYb5Z.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/ddiQriqWxnEDhy4ufjc18HDI98.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/qhcwrnnCnN8NE1N6XXKHFmveJR9.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/2JHWZOaEc426dQnXnTJFurmXpu.jpg"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="catalago">
+          <h2 class="titulo">Em alta</h2>
+          <div class="conteudos">
+            <div class="banners">
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/opDY35ukPWTGFIxq17BBHJs49LD.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/cyCAsMLGECvEAFDfKcxcWy7YTOW.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/x7zUHG5cko4ZXQO2209Qc2aoyrc.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/uJ1kQWTY1nElMcrrbHtDitbV85K.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/5qMupAz4A9EN5Rutrkmov45mNXZ.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/sPbNUuCOD2ilcVWf5yjjkMqyoxs.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/aesLt9fsKSA6KCgGxA60VVxjtLk.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/f2FK4mTRwIq4sLWzuLIG2Y6RbRi.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/8sa6A1DlRMWVAwWlScunrikYb5Z.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/ddiQriqWxnEDhy4ufjc18HDI98.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/qhcwrnnCnN8NE1N6XXKHFmveJR9.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/2JHWZOaEc426dQnXnTJFurmXpu.jpg"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="catalago">
+          <h2 class="titulo">Minha lista</h2>
+          <div class="conteudos">
+            <div class="banners">
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/opDY35ukPWTGFIxq17BBHJs49LD.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/cyCAsMLGECvEAFDfKcxcWy7YTOW.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/x7zUHG5cko4ZXQO2209Qc2aoyrc.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/uJ1kQWTY1nElMcrrbHtDitbV85K.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/5qMupAz4A9EN5Rutrkmov45mNXZ.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/sPbNUuCOD2ilcVWf5yjjkMqyoxs.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/aesLt9fsKSA6KCgGxA60VVxjtLk.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/f2FK4mTRwIq4sLWzuLIG2Y6RbRi.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/8sa6A1DlRMWVAwWlScunrikYb5Z.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/ddiQriqWxnEDhy4ufjc18HDI98.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/qhcwrnnCnN8NE1N6XXKHFmveJR9.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/2JHWZOaEc426dQnXnTJFurmXpu.jpg"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="catalago">
+          <h2 class="titulo">Lançamentos</h2>
+          <div class="conteudos">
+            <div class="banners">
+              <div class="img-movie">
+                <img src="images/img-quilvia/1 hereditário.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="images/img-quilvia/2 olhos famintos.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="images/img-quilvia/3 olhos famintos 2.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="images/img-quilvia/4 o predador 1987.png"/>
+              </div>
+              <div class="img-movie">
+                <img src="images/img-quilvia/candyman 5.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="images/img-quilvia/HORA_DO_PESADELO_A_ 6.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="images/img-quilvia/7 corra.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="images/img-quilvia/8 premonição.jpeg"/>
+              </div>
+              <div class="img-movie">
+                <img src="images/img-quilvia/9 premonição 3.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="images/img-quilvia/10 poltergeist.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="images/img-quilvia/11 Willow-1988.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="images/img-quilvia/12 The-Goonies.jpeg"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="catalago">
+          <h2 class="titulo">Dicas para você</h2>
+          <div class="conteudos">
+            <div class="banners">
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/opDY35ukPWTGFIxq17BBHJs49LD.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/cyCAsMLGECvEAFDfKcxcWy7YTOW.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/x7zUHG5cko4ZXQO2209Qc2aoyrc.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/uJ1kQWTY1nElMcrrbHtDitbV85K.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/5qMupAz4A9EN5Rutrkmov45mNXZ.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/sPbNUuCOD2ilcVWf5yjjkMqyoxs.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/aesLt9fsKSA6KCgGxA60VVxjtLk.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/f2FK4mTRwIq4sLWzuLIG2Y6RbRi.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/8sa6A1DlRMWVAwWlScunrikYb5Z.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/ddiQriqWxnEDhy4ufjc18HDI98.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/qhcwrnnCnN8NE1N6XXKHFmveJR9.jpg"/>
+              </div>
+              <div class="img-movie">
+                <img src="https://image.tmdb.org/t/p/w200/2JHWZOaEc426dQnXnTJFurmXpu.jpg"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="catalago">
+          <h2 class="titulo">Brasil: top 10 em filmes hoje</h2>
+          <div class="conteudos">
+            <div class="bannernum">
+              <div class="img-movie">
+                <div class="numeros">1</div>
+                <img src="https://image.tmdb.org/t/p/w200/opDY35ukPWTGFIxq17BBHJs49LD.jpg"/>
+              </div>
+              <div class="img-movie" style="margin-left: 4.5rem;">
+                <div class="numeros">2</div>
+                <img src="https://image.tmdb.org/t/p/w200/uJ1kQWTY1nElMcrrbHtDitbV85K.jpg"/>
+              </div>
+              <div class="img-movie" style="margin-left: 4.5rem;">
+                <div class="numeros">3</div>
+                <img src="https://image.tmdb.org/t/p/w200/aesLt9fsKSA6KCgGxA60VVxjtLk.jpg"/>
+              </div>
+              <div class="img-movie" style="margin-left: 4.5rem;">
+                <div class="numeros">4</div>
+                <img src="https://image.tmdb.org/t/p/w200/5qMupAz4A9EN5Rutrkmov45mNXZ.jpg"/>
+              </div>
+              <div class="img-movie" style="margin-left: 4.5rem;">
+                <div class="numeros">5</div>
+                <img src="https://image.tmdb.org/t/p/w200/sPbNUuCOD2ilcVWf5yjjkMqyoxs.jpg"/>
+              </div>
+              <div class="img-movie" style="margin-left: 4.5rem;">
+                <div class="numeros">6</div>
+                <img src="https://image.tmdb.org/t/p/w200/x7zUHG5cko4ZXQO2209Qc2aoyrc.jpg"/>
+              </div>
+              <div class="img-movie" style="margin-left: 4.5rem;">
+                <div class="numeros">7</div>
+                <img src="https://image.tmdb.org/t/p/w200/f2FK4mTRwIq4sLWzuLIG2Y6RbRi.jpg"/>
+              </div>
+              <div class="img-movie" style="margin-left: 4.5rem;">
+                <div class="numeros">8</div>
+                <img src="https://image.tmdb.org/t/p/w200/8sa6A1DlRMWVAwWlScunrikYb5Z.jpg"/>
+              </div>
+              <div class="img-movie" style="margin-left: 4.5rem;">
+                <div class="numeros">9</div>
+                <img src="https://image.tmdb.org/t/p/w200/ddiQriqWxnEDhy4ufjc18HDI98.jpg"/>
+              </div>
+              <div class="img-movie" style="margin-left: 4.5rem;">
+                <div class="numeros">10</div>
+                <img src="https://image.tmdb.org/t/p/w200/qhcwrnnCnN8NE1N6XXKHFmveJR9.jpg"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
